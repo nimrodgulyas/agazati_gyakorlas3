@@ -1,0 +1,18 @@
+Pecco Bagnaia;Ducati Lenovo Team;olasz;1;498
+Jorge Martin;Aprilia Racing;spanyol;89;392
+Marc Marquez;Ducati Lenovo Team;spanyol;93;345
+Brad Binder;Red Bull KTM Factory Racing;dél-afrikai;33;301
+Enea Bastianini;Tech3 GASGAS Factory Racing;olasz;23;280
+Fabio Quartararo;Monster Energy Yamaha;francia;20;265
+Marco Bezzecchi;Pertamina Enduro VR46 Racing Team;olasz;72;258
+Alex Marquez;Gresini Racing MotoGP;spanyol;73;242
+Jack Miller;Prima Pramac Yamaha;ausztrál;43;228
+Joan Mir;Honda HRC;spanyol;36;215
+Raul Fernandez;Trackhouse Racing;spanyol;25;198
+Pedro Acosta;Red Bull KTM Factory Racing;spanyol;31;412
+Franco Morbidelli;Prima Pramac Yamaha;olasz;21;190
+Maverick Vinales;Aprilia Racing;spanyol;12;205
+Johann Zarco;LCR Honda;francia;5;178
+Luca Marini;Honda HRC;olasz;10;165
+Augusto Fernandez;GASGAS Factory Racing Tech3;spanyol;37;142
+Takaaki Nakagami;LCR Honda;japán;30;155

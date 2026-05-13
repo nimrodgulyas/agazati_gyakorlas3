@@ -1,0 +1,77 @@
+1. feladat: Motor üzemanyag (8 pont) – Könnyű
+Írjon programot motor_uzemanyag.py néven, ami segít kiszámolni egy MotoGP versenymotor versenyre várható üzemanyag-szükségletét!
+A program kérje be a billentyűzetről:
+  – a versenyen teljesítendő körök számát,
+  – az egy körre eső átlagos fogyasztást literben,
+  – a motor üzemanyag-tartályának méretét literben.
+
+Minta:
+Körök száma: 25
+Átlagos fogyasztás körönként (liter): 0.42
+A tartály mérete (liter): 12
+A versenyhez szükséges üzemanyag: 10.5 liter.
+A tartály elegendő a versenyhez!
+
+Körök száma: 30
+Átlagos fogyasztás körönként (liter): 0.5
+A tartály mérete (liter): 12
+A versenyhez szükséges üzemanyag: 15.0 liter.
+A tartály NEM elegendő! Még 3.0 liter üzemanyag szükséges.
+
+────────────────────────────────────────────────────────
+2. feladat: Köridő szimuláció (14 pont) – Közepes
+Írjon programot motogp_koridok.py néven.
+
+A programban hozzon létre egy függvényt gyors_kor néven, ami egy egész számot (köridőt másodpercben) kap paraméterként, és igaz értéket ad vissza, ha a köridő 105-nél kisebb (szigorúan kisebb, azaz < 105), egyébként hamis értékkel térjen vissza.
+
+Ezután generáljon 120 db 95 és 120 közé eső véletlen egész számot (szimulált köridők másodpercben), és a függvény felhasználásával számolja meg, hogy hány köridő volt 105 másodpercnél gyorsabb. Állapítsa meg, hogy ez az összes kör hány százaléka! Az eredményt a minta szerint írja ki; a százalékot 2 tizedes pontossággal!
+
+Minta (a számok a véletlentől függőek lesznek, a forma legyen ilyen):
+A 120 körből 52 volt 105 másodpercnél gyorsabb.
+Ez az összes kör 43.33%-a.
+
+────────────────────────────────────────────────────────
+3. feladat: MotoGP pilóták (18 pont) – Nehéz
+A MotoGP a gyorsasági motorversenyek egyik legmagasabb szintű bajnoksága. Ebben a feladatban pilóták adataival kell dolgoznia!
+
+• A képernyőre írást igénylő részfeladatok eredményének megjelenítése előtt írja a képernyőre a feladat sorszámát (például: 3.2. feladat:)!
+• A kiírásokat a minta szerint készítse el!
+• Az ékezetmentes kiírások is elfogadottak.
+• Az állományban lévő, valamint a felhasználó által megadott adatok helyes szerkezetét nem kell ellenőriznie.
+• Megoldását úgy készítse el, hogy az azonos szerkezetű, de tetszőleges bemeneti adatok mellett is helyes eredményt adjon!
+
+A pilottak.txt, UTF-8 kódolású állomány MotoGP-pilóták adatait tartalmazza, legfeljebb 100 sora van. Az adatokat pontosvessző választja el egymástól. Egy sor szerkezete:
+  Pilóta neve (szöveg)
+  Csapat neve (szöveg)
+  Nemzetiség (szöveg)
+  Rajtszám (egész szám)
+  Összpontszám (egész szám)
+
+1. Készítsen programot a következő feladatok megoldására, melynek kódját motogp_pilottak.py néven mentse el. Olvassa be az UTF-8 kódolású pilottak.txt állományban lévő adatokat és tárolja el egy saját osztály (pilota) típusú listában!
+
+2. Hány pilóta adatai szerepelnek az állományban? A választ a minta szerinti formában írassa ki!
+
+3. Írja ki a legtöbb pontot szerző pilóta adatait a minta szerint!
+
+4. Kérjen be a felhasználótól egy csapatnevet! Írja ki az adott csapat pilótáinak listáját a minta szerint! Ha a csapatnév nem szerepel az adatok között, a „Nem található a csapat!” szöveget írja ki!
+
+5. Állapítsa meg és írja ki a minta szerint, hogy átlagosan hány pontot szereztek a spanyol nemzetiségű pilóták! Az eredmény két tizedes pontossággal jelenjen meg!
+
+Minta:
+3.2. feladat: Az állományban 18 pilóta adatai szerepelnek.
+
+3.3. feladat: A legtöbb pontot szerző pilóta:
+Név: Pecco Bagnaia
+Csapat: Ducati Lenovo Team
+Nemzetiség: olasz
+Rajtszám: 1
+Pontszám: 498
+
+3.4. feladat: Írjon be egy csapatnevet: Ducati Lenovo Team
+A Ducati Lenovo Team pilótái:
+Pecco Bagnaia
+Marc Marquez
+
+3.5. feladat: A spanyol pilóták átlagos pontszáma 268.88 pont.
+
+Megjegyzés a 3.4. mintához: a pilóták nevei sorrendje bármi lehet, amit a program a fájlból beolvas; a lényeg, hogy minden illeszkedő sor pilótájának neve megjelenjen.
